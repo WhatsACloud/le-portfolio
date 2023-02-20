@@ -1,0 +1,172 @@
+.div {
+  display: flex;
+  justify-content: center;
+  .projects-title {
+    display: flex;
+    font-size: 80px;
+  }
+}
+
+// internship
+
+.title {
+  padding: 10px;
+  font-size: 30px;
+  // background-color: #383d48;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.date {
+  color:rgb(80, 80, 80);
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.texts-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  .boxes {
+    width: 95%;
+    margin-right: 5%;
+    .box {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.kiplepay-image {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 30vw;
+}
+
+.tech-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-text-container {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.kiplepay-image-container {
+  position: absolute;
+  margin-left: 60vw;
+}
+
+.tech-info-div {
+  margin-top: 50vh;
+  margin-left: 5vw;
+  .tech-info-title {
+    font-size: 25px;
+  }
+  .tech-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.main-text {
+  width: 40vw;
+  margin-left: 20px;
+  font-size: 17.5px;
+  position: absolute;
+}
+
+.title-center {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card {
+  display: flex;
+  background-color: #ff6d6d;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  height: 10rem;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.timeline {
+  .timeline-line {
+    margin-top: -40vh;
+    margin-bottom: -3vh;
+  }
+}
+
+.parallax {
+  margin-right: 5%;
+}
+
+.sticky {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.blue {
+  background-color: #5b65ad;
+  color: white;
+}
+
+.purple {
+  background-color: #9d65d0;
+}
+
+$other-color: #343944;
+$other-color-2: #4b5262;
+
+.date-carousel {
+  display: flex;
+  justify-content: center;
+  background-color: $other-color;
+  width: fit-content;
+  height: fit-content;
+}
+
+.triangle-up {
+  position: absolute;
+  width: 0px;
+	height: 0px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid $other-color;
+  margin-top: -20px;
+}
+
+.letter-carousel-outer {
+  display: flex;
+  flex-direction: column;
+  background-color: $other-color-2;
+  height: 9vw;
+  padding: 5px;
+  font-size: 7.5vw;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.letter-carousel-inner {
+
+}
+
+.letter-carousel {
+
+}
