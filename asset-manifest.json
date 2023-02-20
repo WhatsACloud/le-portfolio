@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/le-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/le-portfolio/static/js/main.bdfa9251.js",
-    "static/js/787.dba2c935.chunk.js": "/le-portfolio/static/js/787.dba2c935.chunk.js",
-    "static/media/logo.svg": "/le-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/le-portfolio/static/css/main.e3d6583d.css",
+    "main.js": "/le-portfolio/static/js/main.d129737d.js",
+    "static/media/react-logo.png": "/le-portfolio/static/media/react-logo.20adfb35ae6a6e5817bf.png",
+    "static/media/golang-logo.png": "/le-portfolio/static/media/golang-logo.6a3cd1884425f3b03c7d.png",
     "index.html": "/le-portfolio/index.html",
-    "main.073c9b0a.css.map": "/le-portfolio/static/css/main.073c9b0a.css.map",
-    "main.bdfa9251.js.map": "/le-portfolio/static/js/main.bdfa9251.js.map",
-    "787.dba2c935.chunk.js.map": "/le-portfolio/static/js/787.dba2c935.chunk.js.map"
+    "main.e3d6583d.css.map": "/le-portfolio/static/css/main.e3d6583d.css.map",
+    "main.d129737d.js.map": "/le-portfolio/static/js/main.d129737d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bdfa9251.js"
+    "static/css/main.e3d6583d.css",
+    "static/js/main.d129737d.js"
   ]
 }
