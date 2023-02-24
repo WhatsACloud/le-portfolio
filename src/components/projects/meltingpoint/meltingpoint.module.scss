@@ -1,0 +1,14 @@
+div.mainOuterDiv {
+  div.contentWrapperDiv {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 20px;
+    div.mainText, div.mainTextRight {
+      width: 30vw;
+      margin-bottom: 20px;
+    }
+    div.mainTextRight {
+      margin-left: auto;
+    }
+  }
+}

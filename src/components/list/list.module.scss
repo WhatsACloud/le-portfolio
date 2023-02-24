@@ -1,0 +1,12 @@
+div.list {
+  background-color: rgb(237, 237, 255);
+  border-radius: 7.5px;
+  div.listElement {
+    padding: 10px;
+    color: rgb(44, 44, 44);
+    border-bottom: 1px solid rgb(140, 140, 169);
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import React, { useRef, useEffect, useState, useLayoutEffect } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import { useSpring, animated } from '@react-spring/web'
-import { Slide, SlideAxisEnum } from '../animated/slide'
-import { Image, ReactLogo, KiplepayLogo, GolangLogo } from '../../images'
-import './projects.scss'
+import { Slide, SlideAxisEnum } from '../../animated/slide'
+import { Image, ReactLogo, KiplepayLogo, GolangLogo } from '../../../images'
+import './internship.scss'
 
       // <Parallax ref={parallax} pages={3}>
       //   <ParallaxLayer
@@ -188,7 +188,7 @@ export const Internship = ({ scrollY }) => {
           </Slide>
         </div>
       </div>
-      <Slide on={scrollY > 600} slideAxis={SlideAxisEnum.Horizontal} slideAmt={100}>
+      <Slide delay={800} on={scrollY > 600} slideAxis={SlideAxisEnum.Horizontal} slideAmt={100}>
         <div className="tech-info-div">
           <div className="tech-info-title">
             Technologies used
@@ -238,9 +238,6 @@ export const Internship = ({ scrollY }) => {
             Achievements
           </div>
         </Slide>
-      </div>
-      <div style={{ marginTop: 1000 }}>
-      end
       </div>
     </div>
   )

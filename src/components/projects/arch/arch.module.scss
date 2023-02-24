@@ -1,0 +1,30 @@
+.centeredText {
+  width: 40vw;
+  margin-left: 30vw;
+}
+
+.text {
+  width: 40vw;
+}
+
+.divRight {
+  margin-left: auto;
+}
+
+.contentDiv {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 20px;
+}
+
+.firstLine {
+  display: flex;
+  flex-direction: row;
+}
+
+.textAndImage {
+  background-color: aliceblue;
+  .comment {
+    color: grey;
+  }
+}
